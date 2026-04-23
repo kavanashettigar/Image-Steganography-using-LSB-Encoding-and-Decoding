@@ -19,5 +19,5 @@ This project hides a secret text file within a BMP image by encoding the file si
 
 # How to Run
 - Compile the program using: gcc *.c -o stego
-- Run encoding: ./stego -e input.bmp secret.txt output.bmp
+- Run encoding: ./stego -e beautiful.bmp secret.txt output.bmp
 - Run decoding: ./stego -d output.bmp decoded.txt
